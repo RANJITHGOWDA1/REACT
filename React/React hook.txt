@@ -1,0 +1,44 @@
+What are Hooks ?
+• Hooks are a new addition in React 16.8. They let you use state and other React features
+without writing a class.
+• Hooks don’t work inside a classes.
+
+Why Hooks ?
+• Hooks make React so much better because you have simpler code that implements similar
+functionalities faster and more effectively. You can also implement React state and lifecycle
+methods without writing classes.
+• There is a need to use stateful logic.
+• Create components for complex scenarios such as data fetching and subscribing to events.
+• Avoid the whole confusion with “this” keyword.
+• Organize the logic inside a component into reusable isolated units.
+
+State Hooks :-
+• Only call hooks at the top level
+• Only call hooks from react functions
+• call them form within react functional com. And not just any regular js function.
+• The React useState Hook allows us to track state in a function component.
+• State generally refers to data or properties that need to be tracking in an application.
+• To use the useState Hook, we first need to import it into our component.
+• We initialize our state by calling useState in our function component.
+• useState accepts an initial state and returns two values:
+• The current state.
+• A function that updates the state.
+
+UseEffect Hooks:-
+• The effect hook lets you perform side effects in factional components.
+• It is a close replacement for componentDidMount, componentDidUpdate and
+component will Unmount
+• Some examples of side effects are: fetching data, directly updating the DOM, and
+timers.
+• useEffect accepts two arguments. The second argument is optional.
+• useEffect(<function>, <dependency>)
+• useEffect runs on every render. That means that when the count changes, a render
+happens, which then triggers another effect.This is not what we want. There are
+several ways to control when side effects run.
+
+Context Hook :-
+• Context provides a way to pass data through the component tree without having to
+pass props down manually at every level.
+• In order to use the Context in a child component, we need to access it using the use
+Context Hook.
+• React Context is a way to manage state globally.
